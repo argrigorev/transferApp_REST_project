@@ -1,0 +1,7 @@
+services:
+  backend:
+    build:
+      context: .
+    ports:
+      - "5500:5500"
+    container_name: spring-boot-backend
